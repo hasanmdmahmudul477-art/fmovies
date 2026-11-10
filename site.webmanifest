@@ -1,0 +1,22 @@
+{
+  "name": "Fmovies - Watch Free Movies Online",
+  "short_name": "Fmovies",
+  "description": "Watch free movies and TV series online in HD at Fmovies. No sign-up needed.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a1424",
+  "theme_color": "#00b3a6",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

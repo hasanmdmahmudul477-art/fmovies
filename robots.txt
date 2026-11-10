@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.fmovies.jo3.org/sitemap.xml
