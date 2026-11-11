@@ -1,4 +1,7 @@
 /* ============ Fmovies settings ============ */
+/* NOTE: this is a TEMPLATE. Real keys are injected at build time from
+   environment variables (see tools/build-config.js). Never put real keys
+   in this file. The generated assets/js/config.js is gitignored. */
 const CONFIG = {
   // Change this to your site name (also updates logo + footer automatically)
   SITE_NAME: "Fmovies",
@@ -36,38 +39,10 @@ const CONFIG = {
      - socialBar = site-wide floating ad, runs on every page
      Leave any slot empty ("") to hide it. */
   ADS: {
-    header: `<script>
-  atOptions = {
-    'key' : '8423c85e608cf7c5277d63eb695d46da',
-    'format' : 'iframe',
-    'height' : 90,
-    'width' : 728,
-    'params' : {}
-  };
-</script>
-<script src="https://www.highrevenueformat.com/8423c85e608cf7c5277d63eb695d46da/invoke.js"><\/script>`,
-    modalMain: `<script async="async" data-cfasync="false" src="https://pl31495361.profitableratecpmnetwork.com/ac7c712404c5d7fe629440b86de99088/invoke.js"><\/script>
-<div id="container-ac7c712404c5d7fe629440b86de99088"></div>`,
-    modalAdult: `<script>
-  atOptions = {
-    'key' : '20d31770725d1c3709b1579e169ecb80',
-    'format' : 'iframe',
-    'height' : 250,
-    'width' : 300,
-    'params' : {}
-  };
-</script>
-<script src="https://www.highrevenueformat.com/20d31770725d1c3709b1579e169ecb80/invoke.js"><\/script>`,
-    footer: `<script>
-  atOptions = {
-    'key' : '20d31770725d1c3709b1579e169ecb80',
-    'format' : 'iframe',
-    'height' : 250,
-    'width' : 300,
-    'params' : {}
-  };
-</script>
-<script src="https://www.highrevenueformat.com/20d31770725d1c3709b1579e169ecb80/invoke.js"><\/script>`,
-    socialBar: `<script src="https://pl31495371.profitableratecpmnetwork.com/6b/0e/07/6b0e0791ef502ecff4b30e84223745f4.js"><\/script>`,
+    header: ``,
+    modalMain: ``,
+    modalAdult: ``,
+    footer: ``,
+    socialBar: ``,
   },
 };

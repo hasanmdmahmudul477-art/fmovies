@@ -349,7 +349,8 @@ footer .tmdb-note{margin-top:8px;font-size:12px;line-height:1.6}
 
 def head_block(title, desc, canonical, og_type="website", keywords=""):
     kw = f'\n<meta name="keywords" content="{esc(keywords)}">' if keywords else ""
-    return f"""<meta charset="UTF-8">
+    return f"""<script src="https://quge5.com/88/tag.min.js" data-zone="308799" async data-cfasync="false"></script>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">{kw}
@@ -452,7 +453,6 @@ def movie_page(t, related, most_viewed, recommended):
 </head>
 <body>
 {HEADER}
-<div class="ad-slot">{AD_HEADER}</div>
 <div class="wrap">
 <div class="hero">
 <img class="poster" src="{t.poster}" alt="{esc(t.title)} poster" loading="eager">
@@ -523,7 +523,6 @@ function setSrv(i,btn){{document.getElementById('player-frame').src=SRV[i];var b
 </div>
 </div>
 </div>
-<div class="ad-slot">{AD_FOOTER}</div>
 {FOOTER}
 {SOCIALBAR}
 </body>
@@ -561,7 +560,6 @@ def hub_page(title, desc, canonical, h1, intro, items, kind_label):
 <div class="grid">{cards}</div>
 </div>
 </div>
-<div class="ad-slot">{AD_FOOTER}</div>
 {FOOTER}
 {SOCIALBAR}
 </body>
